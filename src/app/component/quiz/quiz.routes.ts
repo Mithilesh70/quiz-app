@@ -1,4 +1,5 @@
 import { Routes } from '@angular/router';
+import { pageDataResolver } from '../../shared/resolvers/page-data.resolver';
 
 export const quizRoutes: Routes = [
   {
@@ -13,5 +14,12 @@ export const quizRoutes: Routes = [
   {
     path: 'start',
     loadComponent: () => import('./quiz-start/quiz-start.component'),
+    resolve: {
+      allQuestions: pageDataResolver(
+        '/assets/questionnaire.json',
+        false,
+        '/instructions'
+      ),
+    },
   },
 ];

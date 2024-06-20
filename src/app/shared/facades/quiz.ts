@@ -1,6 +1,5 @@
 export interface QuestionnaireData {
   question: string;
-  isSingleSelect: boolean;
   correctAnswer: number;
   options: QuizOptions[];
 }
@@ -8,5 +7,6 @@ export interface QuestionnaireData {
 export interface QuizOptions {
   optionName: string;
   label: string;
+  isCorrect: boolean;
   id: number;
 }

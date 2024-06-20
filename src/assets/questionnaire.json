@@ -5,109 +5,121 @@
   },
   "data": [
     {
-      "question": " select A",
-      "isSingleSelect": true,
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quidem.?",
       "correctAnswer": 1,
       "options": [
         {
           "optionName": "a",
-          "label": "xyz",
+          "label": "label a",
+          "isCorrect": true,
           "id": 1
         },
         {
           "optionName": "b",
-          "label": "",
+          "label": "label b",
+          "isCorrect": false,
           "id": 2
         },
         {
           "optionName": "c",
-          "label": "",
+          "label": "label c",
+          "isCorrect": false,
           "id": 3
         },
         {
           "optionName": "d",
-          "label": "",
+          "label": "label d",
+          "isCorrect": false,
           "id": 4
         }
       ]
     },
     {
       "question": " select b",
-      "isSingleSelect": true,
       "correctAnswer": 2,
       "options": [
         {
           "optionName": "a",
-          "label": "xyz",
+          "label": "label a",
+          "isCorrect": true,
           "id": 1
         },
         {
           "optionName": "b",
-          "label": "",
+          "label": "label b",
+          "isCorrect": false,
           "id": 2
         },
         {
           "optionName": "c",
-          "label": "",
+          "label": "label c",
+          "isCorrect": false,
           "id": 3
         },
         {
           "optionName": "d",
-          "label": "",
+          "label": "label d",
+          "isCorrect": false,
           "id": 4
         }
       ]
     },
     {
       "question": " select c",
-      "isSingleSelect": true,
       "correctAnswer": 3,
       "options": [
         {
           "optionName": "a",
-          "label": "xyz",
+          "label": "label a",
+          "isCorrect": true,
           "id": 1
         },
         {
           "optionName": "b",
-          "label": "",
+          "label": "label b",
+          "isCorrect": false,
           "id": 2
         },
         {
           "optionName": "c",
-          "label": "",
+          "label": "label c",
+          "isCorrect": false,
           "id": 3
         },
         {
           "optionName": "d",
-          "label": "",
+          "label": "label d",
+          "isCorrect": false,
           "id": 4
         }
       ]
     },
     {
       "question": " select d",
-      "isSingleSelect": true,
       "correctAnswer": 4,
       "options": [
         {
           "optionName": "a",
-          "label": "xyz",
+          "label": "label a",
+          "isCorrect": true,
           "id": 1
         },
         {
           "optionName": "b",
-          "label": "",
+          "label": "label b",
+          "isCorrect": false,
           "id": 2
         },
         {
           "optionName": "c",
-          "label": "",
+          "label": "label c",
+          "isCorrect": false,
           "id": 3
         },
         {
           "optionName": "d",
-          "label": "",
+          "label": "label d",
+          "isCorrect": false,
           "id": 4
         }
       ]
