@@ -1,0 +1,116 @@
+{
+  "settings": {
+    "success": true,
+    "message": "found questionnaire data successfully"
+  },
+  "data": [
+    {
+      "question": " select A",
+      "isSingleSelect": true,
+      "correctAnswer": 1,
+      "options": [
+        {
+          "optionName": "a",
+          "label": "xyz",
+          "id": 1
+        },
+        {
+          "optionName": "b",
+          "label": "",
+          "id": 2
+        },
+        {
+          "optionName": "c",
+          "label": "",
+          "id": 3
+        },
+        {
+          "optionName": "d",
+          "label": "",
+          "id": 4
+        }
+      ]
+    },
+    {
+      "question": " select b",
+      "isSingleSelect": true,
+      "correctAnswer": 2,
+      "options": [
+        {
+          "optionName": "a",
+          "label": "xyz",
+          "id": 1
+        },
+        {
+          "optionName": "b",
+          "label": "",
+          "id": 2
+        },
+        {
+          "optionName": "c",
+          "label": "",
+          "id": 3
+        },
+        {
+          "optionName": "d",
+          "label": "",
+          "id": 4
+        }
+      ]
+    },
+    {
+      "question": " select c",
+      "isSingleSelect": true,
+      "correctAnswer": 3,
+      "options": [
+        {
+          "optionName": "a",
+          "label": "xyz",
+          "id": 1
+        },
+        {
+          "optionName": "b",
+          "label": "",
+          "id": 2
+        },
+        {
+          "optionName": "c",
+          "label": "",
+          "id": 3
+        },
+        {
+          "optionName": "d",
+          "label": "",
+          "id": 4
+        }
+      ]
+    },
+    {
+      "question": " select d",
+      "isSingleSelect": true,
+      "correctAnswer": 4,
+      "options": [
+        {
+          "optionName": "a",
+          "label": "xyz",
+          "id": 1
+        },
+        {
+          "optionName": "b",
+          "label": "",
+          "id": 2
+        },
+        {
+          "optionName": "c",
+          "label": "",
+          "id": 3
+        },
+        {
+          "optionName": "d",
+          "label": "",
+          "id": 4
+        }
+      ]
+    }
+  ]
+}
