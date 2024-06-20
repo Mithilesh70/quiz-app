@@ -16,11 +16,9 @@ export const pageDataResolver =
     const http = inject(HttpClient);
     const routeId = useRouteId ? route.params[idKey] : '';
     const finalApiUrl = routeId ? `${apiUrl}/${routeId}` : apiUrl;
-    console.log('calling');
 
     return http.get(finalApiUrl).pipe(
       map((res: any) => {
-        console.log('res-------->', res);
         return res?.data;
       }),
       catchError((error) => {

@@ -22,4 +22,8 @@ export const quizRoutes: Routes = [
       ),
     },
   },
+  {
+    path: 'result',
+    loadComponent: () => import('./result/result.component'),
+  },
 ];

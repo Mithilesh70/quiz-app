@@ -3,6 +3,7 @@
 @import "custom-bootstrap";
 @import "ngx-toastr/toastr";
 @import "@angular/cdk/overlay-prebuilt.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
 
 :root {
   --#{$prefix}modal-zindex: #{$zindex-modal};

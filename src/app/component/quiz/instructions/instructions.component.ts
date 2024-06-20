@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import { instructionsLabel } from '../../../shared/labels/quiz-label';
 
 @Component({
   selector: 'app-instructions',
@@ -8,4 +9,6 @@ import { RouterLink } from '@angular/router';
   templateUrl: './instructions.component.html',
   styleUrl: './instructions.component.scss',
 })
-export default class InstructionsComponent {}
+export default class InstructionsComponent {
+  allLabels = instructionsLabel;
+}
