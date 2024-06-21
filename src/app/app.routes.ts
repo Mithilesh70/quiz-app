@@ -9,7 +9,8 @@ export const routes: Routes = [
   },
   {
     path: 'error',
-    loadComponent: () => import('./component/error/error.component'),
+    loadComponent: () =>
+      import('./component/page-not-found/page-not-found.component'),
   },
   {
     path: '**',

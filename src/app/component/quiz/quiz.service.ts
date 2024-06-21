@@ -1,6 +1,12 @@
-import { Injectable } from '@angular/core';
+import { Injectable, Signal, signal } from '@angular/core';
 import { QuizOptions } from '../../shared/facades';
 import { ToastrService } from 'ngx-toastr';
+
+export enum allQuizSteps {
+  instructions = 'instructions',
+  quizStarted = 'quizStarted',
+  quizEnded = 'quizEnded',
+}
 
 @Injectable({
   providedIn: 'root',
@@ -8,6 +14,7 @@ import { ToastrService } from 'ngx-toastr';
 export class QuizService {
   private selectedAnswers: QuizOptions[] = [];
   public totalQuestions = 0;
+  public currentQuizStep = signal<allQuizSteps>(allQuizSteps.instructions);
   constructor(private toastr: ToastrService) {}
 
   /**

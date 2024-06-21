@@ -1,5 +1,5 @@
 import { Component, OnDestroy, OnInit, input } from '@angular/core';
-import { QuizService } from '../quiz.service';
+import { QuizService, allQuizSteps } from '../quiz.service';
 import { Subscription, interval, take } from 'rxjs';
 import { QuestionnaireData, QuizOptions } from '../../../shared/facades';
 import { NgClass } from '@angular/common';
@@ -22,8 +22,9 @@ export default class QuizStartComponent implements OnInit, OnDestroy {
     null,
     Validators.required
   );
-  duration = 12;
+  duration = 60;
   timeLeft = this.duration;
+  quizSteps = allQuizSteps;
   private timerSubscription!: Subscription;
   constructor(
     private quizService: QuizService,
@@ -52,7 +53,7 @@ export default class QuizStartComponent implements OnInit, OnDestroy {
       this.quizService.showToast('error', 'Please Select at least one option.');
       return;
     }
-    if (this.timeLeft > 0 && this.answerControl.value) {
+    if (this.answerControl.value) {
       this.quizService.setAnswer(this.answerControl.value);
       this.answerControl?.reset();
     }
@@ -60,6 +61,7 @@ export default class QuizStartComponent implements OnInit, OnDestroy {
       this.currentQuestion++;
       this.startTimer();
     } else {
+      this.quizService.currentQuizStep.set(this.quizSteps.quizEnded);
       this.router.navigate(['../result'], { relativeTo: this.route });
     }
   }

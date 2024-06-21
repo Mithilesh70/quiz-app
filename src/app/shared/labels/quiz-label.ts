@@ -12,4 +12,5 @@ export const resultLabel = {
   correctAnswers: 'Correct Answers',
   attemptedQuestions: 'Attempted Questions',
   totalQuestions: 'Total Questions',
+  retake: 'Retake',
 };

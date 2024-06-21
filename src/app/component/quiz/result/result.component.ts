@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { QuizService } from '../quiz.service';
 import { resultLabel } from '../../../shared/labels/quiz-label';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-result',
   standalone: true,
-  imports: [],
+  imports: [RouterLink],
   templateUrl: './result.component.html',
   styleUrl: './result.component.scss',
 })

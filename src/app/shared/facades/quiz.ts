@@ -1,6 +1,5 @@
 export interface QuestionnaireData {
   question: string;
-  correctAnswer: number;
   options: QuizOptions[];
 }
 
