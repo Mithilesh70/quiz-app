@@ -1,0 +1,298 @@
+{
+  "settings": {
+    "success": true,
+    "message": "found questionnaire data successfully"
+  },
+  "data": [
+    {
+      "question": "Which version of Angular marked the shift from AngularJS to Angular?",
+      "options": [
+        {
+          "optionName": "a",
+          "label": "Angular 2",
+          "isCorrect": true,
+          "id": 1
+        },
+        {
+          "optionName": "b",
+          "label": "Angular 4",
+          "isCorrect": false,
+          "id": 2
+        },
+        {
+          "optionName": "c",
+          "label": "Angular 5",
+          "isCorrect": false,
+          "id": 3
+        },
+        {
+          "optionName": "d",
+          "label": "Angular 6",
+          "isCorrect": false,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "question": "Angular is primarily maintained by which company?",
+      "options": [
+        {
+          "optionName": "a",
+          "label": "Google",
+          "isCorrect": true,
+          "id": 1
+        },
+        {
+          "optionName": "b",
+          "label": "Facebook",
+          "isCorrect": false,
+          "id": 2
+        },
+        {
+          "optionName": "c",
+          "label": "Microsoft",
+          "isCorrect": false,
+          "id": 3
+        },
+        {
+          "optionName": "d",
+          "label": "Amazon",
+          "isCorrect": false,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "question": "In Angular, which file is used to define the set of modules, components, and services?",
+      "options": [
+        {
+          "optionName": "a",
+          "label": "app.module.ts",
+          "isCorrect": true,
+          "id": 1
+        },
+        {
+          "optionName": "b",
+          "label": "app.component.ts",
+          "isCorrect": false,
+          "id": 2
+        },
+        {
+          "optionName": "c",
+          "label": "angular.json",
+          "isCorrect": false,
+          "id": 3
+        },
+        {
+          "optionName": "d",
+          "label": "package.json",
+          "isCorrect": false,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "question": "What does CLI stand for in Angular CLI?",
+      "options": [
+        {
+          "optionName": "a",
+          "label": "Command Line Interface",
+          "isCorrect": true,
+          "id": 1
+        },
+        {
+          "optionName": "b",
+          "label": "Command Line Interaction",
+          "isCorrect": false,
+          "id": 2
+        },
+        {
+          "optionName": "c",
+          "label": "Command Language Interpretation",
+          "isCorrect": false,
+          "id": 3
+        },
+        {
+          "optionName": "d",
+          "label": "Command Link Interface",
+          "isCorrect": false,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "question": "Which command is used to generate a new component in an Angular project?",
+      "options": [
+        {
+          "optionName": "a",
+          "label": "ng generate component",
+          "isCorrect": true,
+          "id": 1
+        },
+        {
+          "optionName": "b",
+          "label": "ng generate service",
+          "isCorrect": false,
+          "id": 2
+        },
+        {
+          "optionName": "c",
+          "label": "ng create component",
+          "isCorrect": false,
+          "id": 3
+        },
+        {
+          "optionName": "d",
+          "label": "ng add component",
+          "isCorrect": false,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "question": "To update Angular to a newer version, which command is used?",
+      "options": [
+        {
+          "optionName": "a",
+          "label": "ng update",
+          "isCorrect": true,
+          "id": 1
+        },
+        {
+          "optionName": "b",
+          "label": "ng upgrade",
+          "isCorrect": false,
+          "id": 2
+        },
+        {
+          "optionName": "c",
+          "label": "ng new version",
+          "isCorrect": false,
+          "id": 3
+        },
+        {
+          "optionName": "d",
+          "label": "ng refresh",
+          "isCorrect": false,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "question": "In Angular, which file is primarily responsible for defining npm packages for the project?",
+      "options": [
+        {
+          "optionName": "a",
+          "label": "package.json",
+          "isCorrect": true,
+          "id": 1
+        },
+        {
+          "optionName": "b",
+          "label": "angular.json",
+          "isCorrect": false,
+          "id": 2
+        },
+        {
+          "optionName": "c",
+          "label": "config.json",
+          "isCorrect": false,
+          "id": 3
+        },
+        {
+          "optionName": "d",
+          "label": "app.module.ts",
+          "isCorrect": false,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "question": "What is the purpose of the angular.json file in an Angular project?",
+      "options": [
+        {
+          "optionName": "a",
+          "label": "Configure project-specific settings",
+          "isCorrect": true,
+          "id": 1
+        },
+        {
+          "optionName": "b",
+          "label": "Define components and services",
+          "isCorrect": false,
+          "id": 2
+        },
+        {
+          "optionName": "c",
+          "label": "Set up routing",
+          "isCorrect": false,
+          "id": 3
+        },
+        {
+          "optionName": "d",
+          "label": "List TypeScript files",
+          "isCorrect": false,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "question": "Which command is used to serve an Angular application locally for development?",
+      "options": [
+        {
+          "optionName": "a",
+          "label": "ng serve",
+          "isCorrect": true,
+          "id": 1
+        },
+        {
+          "optionName": "b",
+          "label": "ng start",
+          "isCorrect": false,
+          "id": 2
+        },
+        {
+          "optionName": "c",
+          "label": "ng run",
+          "isCorrect": false,
+          "id": 3
+        },
+        {
+          "optionName": "d",
+          "label": "ng develop",
+          "isCorrect": false,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "question": "What is the output of the following Angular CLI command: ng g c my-component --flat?",
+      "options": [
+        {
+          "optionName": "a",
+          "label": "A new component in the app folder",
+          "isCorrect": true,
+          "id": 1
+        },
+        {
+          "optionName": "b",
+          "label": "A new component in a separate folder",
+          "isCorrect": false,
+          "id": 2
+        },
+        {
+          "optionName": "c",
+          "label": "A new module",
+          "isCorrect": false,
+          "id": 3
+        },
+        {
+          "optionName": "d",
+          "label": "A new service",
+          "isCorrect": false,
+          "id": 4
+        }
+      ]
+    }
+  ]
+}

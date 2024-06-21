@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="d-flex w-100 flex-column align-items-center my-4">
+        <h2 class="d-flex">{{ allLabels.instruction }}</h2>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card p-4">
+        <ul class="d-flex flex-column gap-2">
+          @for (item of instructionsData; track $index) {
+
+          <li>{{ item }}</li>
+          }
+        </ul>
+      </div>
+      <div class="d-flex align-items-center justify-content-center my-2">
+        <button
+          type="button"
+          class="btn btn-primary text-white fs-4 px-4"
+          (click)="startQuiz()"
+        >
+          {{ allLabels.startQuiz }}
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

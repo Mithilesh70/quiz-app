@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="d-flex w-100 flex-column align-items-center gap-3">
+        <img src="/assets/image/tick.png.png" alt="tick" width="150" />
+        <h3>{{ allLabels.resultHeader }}</h3>
+        <h2>{{ allLabels.scoreCard }}</h2>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class="card">
+        <div class="card-body">
+          <div class="d-flex align-items-center justify-content-center gap-5">
+            <div class="d-flex align-items-center flex-column">
+              <div
+                class="d-flex text-light align-items-center justify-content-center score fs-2 bg-success"
+              >
+                {{ correctAnswer }}
+              </div>
+              <p class="fs-5">{{ allLabels.correctAnswers }}</p>
+            </div>
+            <div class="d-flex align-items-center flex-column">
+              <div
+                class="d-flex text-light align-items-center justify-content-center score fs-2 bg-primary"
+              >
+                {{ attemptedQuestion }}
+              </div>
+              <p class="fs-5">{{ allLabels.attemptedQuestions }}</p>
+            </div>
+            <div class="d-flex align-items-center flex-column">
+              <div
+                class="d-flex text-light align-items-center justify-content-center score fs-2 bg-secondary"
+              >
+                {{ totalQuestions }}
+              </div>
+              <p class="fs-5">{{ allLabels.totalQuestions }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex align-items-center justify-content-center my-2">
+        <a
+          type="button"
+          class="btn btn-primary text-white fs-4 px-4"
+          routerLink="../instructions"
+        >
+          {{ allLabels.retake }}
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
